@@ -23,6 +23,9 @@ public class Principal {
         this.repositorio = repository;
     }
 
+    public Principal() {
+    }
+
     public void muestraElMenu() {
         var opcion = -1;
         while (opcion != 0) {
