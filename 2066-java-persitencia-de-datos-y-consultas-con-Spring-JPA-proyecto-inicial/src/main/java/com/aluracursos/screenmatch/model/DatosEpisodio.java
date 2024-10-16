@@ -1,3 +1,4 @@
+
 package com.aluracursos.screenmatch.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
