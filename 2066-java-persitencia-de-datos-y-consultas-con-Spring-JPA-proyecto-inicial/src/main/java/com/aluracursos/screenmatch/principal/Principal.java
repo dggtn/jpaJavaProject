@@ -4,10 +4,13 @@ import com.aluracursos.screenmatch.model.*;
 import com.aluracursos.screenmatch.repository.SerieRepository;
 import com.aluracursos.screenmatch.service.ConsumoAPI;
 import com.aluracursos.screenmatch.service.ConvierteDatos;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
+@Component
 public class Principal {
     private Scanner teclado = new Scanner(System.in);
     private ConsumoAPI consumoApi = new ConsumoAPI();
@@ -19,11 +22,8 @@ public class Principal {
     private List<Serie> series;
     private Optional<Serie> serieBuscada;
 
-    public Principal(SerieRepository repository) {
+    public Principal(@Autowired SerieRepository repository) {
         this.repositorio = repository;
-    }
-
-    public Principal() {
     }
 
     public void muestraElMenu() {
