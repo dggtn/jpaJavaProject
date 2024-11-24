@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/2066-java-persitencia-de-datos-y-consultas-con-Spring-JPA-proyecto-inicial.iml" filepath="$PROJECT_DIR$/.idea/2066-java-persitencia-de-datos-y-consultas-con-Spring-JPA-proyecto-inicial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenmatch.iml" filepath="$PROJECT_DIR$/screenmatch.iml" />
     </modules>
   </component>
 </project>
